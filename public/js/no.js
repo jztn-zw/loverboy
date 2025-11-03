@@ -2,7 +2,7 @@ const againBtn = document.querySelector(".no_way");
 const heartsContainer = document.querySelector(".falling-brokenhearts");
 
 againBtn.addEventListener("click", () => {
-  window.location.href = "/html/index.html"; // go back to home
+  window.location.href = "/index.html"; // go back to home
 });
 
 function createHeart() {
